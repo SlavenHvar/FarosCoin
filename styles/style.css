@@ -1,0 +1,84 @@
+body {
+    background-color:	white;
+	  max-width: 100%;
+}
+
+.mainText h1{
+  color: black;
+  font-weight: normal;
+}
+
+.mainText p{
+  color: black;
+  font-weight: normal;
+}
+
+.formText p{
+  font-size: 24px;
+}
+
+.navbar-custom {
+  background-color: 	white;
+	position: fixed;
+  width: 100%;
+	z-index: 1;
+}
+
+.navbar-custom .navbar-brand{
+    color: black;
+}
+
+.navbar-custom .navbar-text{
+    color: black;
+}
+
+.navbar-custom .nav-item .nav-link{
+color: black;	
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: darkorange;
+}
+
+.navbar .navbar-brand:hover { 
+  color:darkorange; 
+} 
+
+.jumbotron {
+    min-height: 300px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logometa{
+  width: 56px;
+  height: 50px;
+}
+
+a {
+  word-break: break-all;
+}
+
+#notifyErr0 p{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+

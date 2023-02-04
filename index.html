@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Faros Coin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Faros Coin">
+    <meta name="keywords" content="Crypto, Cryptocurrencies, Faros Coin, Coin, Token, ERC20, Stari Grad, Island of Hvar, Croatia">
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<script src="scripts/minter.js"></script>
+
+<script src="node_modules/web3/dist/web3.min.js"></script>
+  
+</head>
+
+<body>
+
+<nav class="navbar navbar-custom navbar-expand-sm navbar-light">
+  <a class="navbar-brand" href="index.html">Faros Coin</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="howtobuy.html">How to buy</a>
+      </li>
+    </ul>
+  </div> 
+</nav>
+<br>
+<br>
+<br>
+<div class="container text-center mainText">
+  <h1>Faros Coin (FAROS)</h1>
+  <br>
+  <p><i>The first cryptocurrency created in Stari Grad (Island of Hvar, Croatia)</i></p>
+  <br>
+  <img src="images/logo.png">
+  <br>
+  <br>
+  <br>
+  <p><i>Faros Coin (FAROS) is an ERC20 Token on the <a href="https://polygonscan.com/" target="_blank" rel="noopener noreferrer">Polygon Network</a></i></p>
+  <img src="images/polygon.png" class="img-fluid logometa" alt="logo">
+  <br>
+  <br>
+  <p><i>Smart contract on Polygon Network :<a href="https://polygonscan.com/address/0xeac4c075f20886bb8bbc2998fb59feb6a62b04fe" target="_blank" rel="noopener noreferrer">0xeac4c075f20886bb8bbc2998fb59feb6a62b04fe</a></i></p>
+  <br>
+  <p><i>Total fixed supply: 20 000 000 FAROS</i></p>
+  <br>
+  <p><i>Please read the <a href="disclaimer.html" target="_blank" rel="noopener noreferrer">disclaimer</a> before buying FAROS tokens</i></p>
+</div>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="container">  
+          <form>
+              <div class="container text mainText">
+                <h3>Buy Faros Coin (FAROS)</h3>
+                <br>
+                <label for="amount">Quantity:</label>
+                <input type="text" class="form-control" id="amount" name="tokenAmount" required>
+                <small id="amountS" class="form-text text-muted">Buying rate: 1 MATIC = 1000 FAROS</small>
+                <div id="notifyErr0" style="display:none">
+                  <p>Please enter only integers between 1-1000000</p>
+                </div>
+              </div>
+              <br>     
+              <br>
+              <button id="btnBuy" class="btn btn-primary">Buy FAROS</button>
+              <div id="notifyErr3" style="display:none">
+                <br>
+                <br>
+                <p id="errTxt3"></p> 
+                <div id="notifyErr2" style="display:none">
+                  <p id="errTxt2"></p>
+                </div>
+              </div>
+              <div id="cbHash" style="display:none">
+                <p id="lbltxHash" ></p>
+                <code><a id="txtHash" target="_blank" rel="noopener noreferrer"></a></code>
+                <br>
+                <br>
+                <p id="lblWait"></p>
+              </div>
+              <div id="cbReceipt" style="display:none">
+                <p>Transaction completed!</p>
+                <p>Add FAROS to Web3 wallet!</p>
+                <br>
+                <button id="btnAdd" class="btn btn-primary">Add FAROS</button>
+                <br>
+                <br>
+                <p id="lblReceipt" ></p>
+                <code id="txReceipt" ></code>
+                <br>
+                <br>
+              </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="container text-center mainText">
+  <p><i>by cryptoHvar</i></p>
+  <p><i>cryptohvar@gmail.com</i></p>
+  <br>
+</div>         
+</body>
+</html>
+
+
